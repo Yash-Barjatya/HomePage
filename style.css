@@ -554,4 +554,95 @@ h1{
    {
      background-color: royalblue;
    }
-/*section activities end*/  
+/*section activities end*/ 
+
+
+   
+  /********section contact starts*********/
+  
+  
+  #contact {
+     
+      
+    /* box-shadow: 0px 0px 25px 0px slategrey; */
+    box-shadow: 0px 0px 25px 0px rgba(1, 81, 253, 0.829);/* for light mode */
+    
+    padding: 60px 0;
+    overflow: hidden;
+    color:darkblue;/* for light mode */
+    
+  
+  }
+  #contact .section-header {
+    padding-bottom: 30px;
+   text-align: center;
+  }
+  #contact .section-header h3 {
+    font-size: 36px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    line-height: 1;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #013775;/* for light mode */
+  }
+  #contact .form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: larger;
+  }
+  #contact .form ::placeholder{
+    font-weight: 700;
+    font-size: larger;
+    color: #74b5fc;/* for light mode */
+  }
+  #contact .email-form input, #contact .email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+  }
+  #contact .email-form input:focus, #contact .email-form textarea:focus {
+    border-color: ivory;
+  }
+  #contact .email-form input {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border-color: #0450a7 ;/*for dark mode*/
+  }
+  #contact .email-form textarea {
+    padding: 12px 15px;
+    border-radius: 10px;
+    border-color: #013775 ;/*for light mode*/
+  }
+  #contact .email-form button[type=submit] {
+    background-color: white;
+    border: 0;
+    border-radius: 20px;
+    padding: 8px 30px;
+    color: #013775;/* for light mode */
+    transition: 0.3s;
+  }
+  #contact .email-form button[type=submit]:hover {
+    background-color: #013775 ;/* for light mode */
+    color: white;
+    cursor: pointer;
+  }
+  /*feedback response*/
+#feedback{
+    display: none;
+  }
+     #feedback h1{
+        margin: 50px;
+        font-family: Inconsolata ;
+        text-decoration: none;
+        
+    }
+    .feedback_body{
+        height: 200px;
+    }
+  /********section contact ends*********/
+  
