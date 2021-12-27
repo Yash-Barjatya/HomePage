@@ -646,3 +646,86 @@ h1{
     }
   /********section contact ends*********/
   
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+
+
+    /* background: rgb(17, 43, 68); for dark mode */
+    padding: 0 0 30px 0;
+    color: #eee;
+    font-size: 14px;
+    
+    }
+    #footer .footer-top {
+    
+    /* background: #013775; */ /*for dark mode*/
+    /*background-color:#74b5fc;*//*for light mode*/
+    box-shadow: 0px 0px 25px 0px rgba(1, 81, 253, 0.829);/* for light mode */
+    padding: 60px 0 30px 0;
+    }
+    #footer .footer-top .footer-info {
+    margin-bottom: 30px;
+    }
+    #footer .footer-top  h2 {
+      
+    font-size: 34px;
+    margin: 0 0 20px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-family: "Audiowide", sans-serif;
+    /* color:white;for dark mode */
+    color:#013775;/* for light mode*/
+    font-weight: 400;
+    
+    }
+    #footer .footer-top  h3 {
+    font-size: 25px;
+    margin: 0 0 20px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-family: "Audiowide", sans-serif;
+    
+    color: blue;
+    font-weight: 400;
+    
+    }
+    #footer .footer-top .footer-info p {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: 'Architects Daughter',sans-serif;
+    color: royalblue;
+    }
+    
+    #footer .footer-top .social-links a {
+      
+      display: inline-flex;
+    justify-content: space-around;
+    /* align-items: flex-end;*/
+    border-radius: 50%;
+    font-size: 18px;
+    color: royalblue;
+    
+    margin-right: 4px;
+    
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    }
+    
+    #footer .footer-top .social-links a:hover {
+    
+    color: rgb(3, 11, 122);/* for light mode */
+    
+    }
+    
+    
+    #footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    color: #013775;/* for light mode*/
+    }
