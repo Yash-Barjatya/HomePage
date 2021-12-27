@@ -270,3 +270,55 @@ h1{
 }
   /* **** section home ends ****** */
 
+    /* **** section about  ****** */ 
+.about-body{
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  #about .about-container .icon-box {
+    background: #fff;
+    background-size: cover;
+    padding: 0 0 30px 0;
+  }
+  #about .about-container .icon-box .icon {
+    float: left;
+    background: #fff;
+    margin-left: 5px;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid #007bff;/* for light mode */
+    transition: all 0.3s ease-in-out;
+  }
+  #about .about-container .icon-box .icon i {
+    color: #007bff;/* for light mode */
+    font-size: 24px;
+    line-height: 0;
+  }
+  #about .about-container .icon-box:hover .icon {
+    background: #007bff;/* for light mode */
+  }
+  #about .about-container .icon-box:hover .icon i {
+    color: #fff;
+  }
+  #about .about-container .icon-box .title {
+    margin-left: 80px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-family:Inconsolata ;
+    
+  }
+  #about .about-container .icon-box .title a {
+    color: #013775;/* for light mode */
+  }
+  #about .about-container .icon-box .description {
+    margin-left: 80px;
+    line-height: 24px;
+    font-size: 16px;
+  }
+    /* **** section about ends ****** */
+  
