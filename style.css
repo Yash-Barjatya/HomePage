@@ -447,22 +447,6 @@ h1{
        
        
     }
-   
-    
-  
-  
-    /* .activities_container .activities_box .activities_content a{
-        display: inline-block;
-        padding: 10px 20px;
-        background: #fff;
-        text-decoration: none;
-        border-radius: 4px;
-        color: #000;
-        font-weight: 500;
-        margin-top: 20px;
-        box-shadow: 0 5px 15px rgba(0,0,0,1);
-    } */
-  
       /* **** section activities  ends****** */
    /* skill section */
    .skills_container{
@@ -477,7 +461,6 @@ h1{
     padding: 40px;
     background: #fff;
     border-radius: 5px;
-    /* box-shadow: 5px 15px 25px rgba(0, 0, 0, 0.5); */
     box-shadow: 5px 15px 25px rgba(1, 81, 253, 0.5);/* for light mode */
     margin: 20px;
     overflow: hidden;
@@ -507,7 +490,7 @@ h1{
    
    @media (max-width: 310px) {
     .skills_box{
-      width: 100px;
+      width: 150px;
     }
    }
    .skills_box .progress:nth-child(1) .progress-bar:nth-child(2)
@@ -564,7 +547,6 @@ h1{
   #contact {
      
       
-    /* box-shadow: 0px 0px 25px 0px slategrey; */
     box-shadow: 0px 0px 25px 0px rgba(1, 81, 253, 0.829);/* for light mode */
     
     padding: 60px 0;
@@ -653,16 +635,12 @@ h1{
 #footer {
 
 
-    /* background: rgb(17, 43, 68); for dark mode */
     padding: 0 0 30px 0;
     color: #eee;
     font-size: 14px;
     
     }
     #footer .footer-top {
-    
-    /* background: #013775; */ /*for dark mode*/
-    /*background-color:#74b5fc;*//*for light mode*/
     box-shadow: 0px 0px 25px 0px rgba(1, 81, 253, 0.829);/* for light mode */
     padding: 60px 0 30px 0;
     }
