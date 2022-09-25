@@ -4,31 +4,15 @@
   box-sizing: border-box;
 }
 
-/* **** till Preloader ****** */
-/*
-body{
-    background-color: black;
-    position: relative;
-    color:royalblue;//for light mode//
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bolder;
+  font-size: 40px;
+  font-family: "Shadows Into Light", sans-serif;
+  color: #013775;
 }
 
-h1{
-    text-align: center;
-    text-decoration: underline;
-    font-family: "Audiowide", sans-serif;
-    color: #013775;// for light mode //
-  }
-#preloader{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5%;
-}
-#main_content{
-    display: none;
-}
-*/
-/* **** till Preloader part ends ****** */
 .navbar {
   font-family: 'Shadows Into Light';
   font-size: large;
@@ -158,15 +142,17 @@ section {
 
 /* Animation */
 .css-typing h4 {
+
   border-right: .15em solid rgb(0, 162, 255);
-  font-family: "Courier";
+  font-family: 'Shadows Into Light';
   font-size: 10px;
   white-space: nowrap;
   overflow: hidden;
+
 }
 
 .css-typing h4:nth-child(1) {
-  width: 11.5em;
+  width: 8.5em;
   -webkit-animation: type 2s steps(40, end);
   animation: type 2s steps(40, end);
   -webkit-animation-fill-mode: forwards;
@@ -174,7 +160,7 @@ section {
 }
 
 .css-typing h4:nth-child(2) {
-  width: 11.5em;
+  width: 8.5em;
   opacity: 0;
   -webkit-animation: type2 2s steps(40, end);
   animation: type2 2s steps(40, end);
@@ -185,10 +171,10 @@ section {
 }
 
 .css-typing h4:nth-child(3) {
-  width: 13em;
+  width: 8em;
   opacity: 0;
-  -webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
-  animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
+  -webkit-animation: type3 2s steps(40, end);
+  animation: type3 2s steps(40, end);
   -webkit-animation-delay: 4s;
   animation-delay: 4s;
   -webkit-animation-fill-mode: forwards;
@@ -306,7 +292,9 @@ section {
 /* **** section about  ****** */
 .about-body {
   margin-left: 20px;
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: Inconsolata;
 }
 
 #about .about-container .icon-box {
@@ -378,11 +366,7 @@ section {
   } */
 
 
-.activities_container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+
 
 .activities_container .activities_box {
   position: relative;
@@ -428,6 +412,12 @@ section {
   font-size: 40px;
   font-weight: 700;
   transition: 0.2s;
+}
+
+.activities_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .activities_container .activities_box:nth-child(1) .activities_icon {
@@ -512,108 +502,166 @@ section {
 
   margin: 0;
   padding: 0;
+}
 
+/* #### Media Queries #### */
+/* @media (max-width: 1640px) and (min-width: 1200px) {
+ 
+  }
+} */
 
+@media (max-width: 800px) and (min-width: 300px) {
+  .activities_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 /* **** section activities  ends****** */
-/* skill section */
+
+/********section skills starts*********/
 .skills_container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
-.skills_box {
-  position: relative;
-  width: 800px;
-  padding: 40px;
-  background: #fff;
-  border-radius: 5px;
+.skills {
+  padding: 5rem 0 2.5rem 0;
+
+}
+
+
+.skills .row {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+}
+
+.skills .item {
+  width: 700px;
+  width: 100%;
   box-shadow: 5px 15px 25px rgba(1, 81, 253, 0.5);
-  /* for light mode */
-  margin: 20px;
-  overflow: hidden;
-  box-sizing: border-box;
-  text-align: center;
+  padding: 0.5rem 0;
+  margin: 0.3rem 0;
 }
 
+.skills .item-text {
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 600;
+  font-size: 1.3rem;
+  position: relative;
+}
+
+.skills .item-text span:last-child {
+  position: absolute;
+}
+
+.skills .item-text .w-90 {
+  margin-left: 85%;
+}
+
+.skills .item-text .w-75 {
+  margin-left: 70%;
+}
+
+.skills .item-text .w-85 {
+  margin-left: 80%;
+}
+
+.skills .item-text .w-80 {
+  margin-left: 75%;
+}
+
+.skills .item-text .w-60 {
+  margin-left: 55%;
+}
+
+.skills .item-text .w-68 {
+  margin-left: 63%;
+}
 
 .progress {
-  height: 30px;
+  margin: 0.8rem 0;
+  border-radius: 10px;
+  height: 16px;
+  width: 100%;
+  background-color: #013775;
+  overflow: hidden;
 }
 
-.progress i {
-  font-size: 15px;
-  margin-left: 5px;
-  font-style: normal;
+.progress-bar {
+  background: #2f82fd;
+  height: 100%;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
 }
 
-@media (max-width: 800px) and (max-width: 510px) {
-  .skills_box {
-    width: 400px;
+.progress-bar.w-90 {
+  width: 90%;
+}
+
+.progress-bar.w-75 {
+  width: 75%;
+}
+
+.progress-bar.w-85 {
+  width: 85%;
+}
+
+.progress-bar.w-80 {
+  width: 80%;
+}
+
+.progress-bar.w-60 {
+  width: 60%;
+}
+
+.progress-bar.w-68 {
+  width: 68%;
+}
+
+/* #### Media Queries #### */
+@media (max-width: 1000px) and (min-width: 800px) {
+  .skills .row {
+    width: 790px;
   }
 }
 
-@media (max-width: 510px) and (max-width: 310px) {
-  .skills_box {
-    width: 200px;
+@media (max-width: 800px) and (min-width: 650px) {
+  .skills .row {
+    width: 640px;
   }
 }
 
-@media (max-width: 310px) {
-  .skills_box {
-    width: 150px;
+@media (max-width: 650px) and (min-width: 510px) {
+  .skills .row {
+    width: 500px;
   }
 }
 
-.skills_box .progress:nth-child(1) .progress-bar:nth-child(2) {
-  background-color: orange;
+@media (max-width: 510px) and (min-width: 350px) {
+  .skills .row {
+    width: 340px;
+  }
 }
 
-.skills_box .progress:nth-child(3) .progress-bar:nth-child(1) {
-  background-color: goldenrod;
+@media (max-width: 350px) and (min-width: 250px) {
+  .skills .row {
+    width: 240px;
+  }
 }
 
-.skills_box .progress:nth-child(3) .progress-bar:nth-child(2) {
-  background-color: gold;
+@media (max-width: 240px) {
+  .skills .row {
+    width: 100px;
+  }
 }
-
-.skills_box .progress:nth-child(4) .progress-bar:nth-child(1) {
-  background-color: purple;
-}
-
-.skills_box .progress:nth-child(4) .progress-bar:nth-child(2) {
-  background-color: violet;
-}
-
-.skills_box .progress:nth-child(5) .progress-bar:nth-child(1) {
-  background-color: darkgreen;
-}
-
-.skills_box .progress:nth-child(6) .progress-bar:nth-child(1) {
-  background-color: blue;
-}
-
-.skills_box .progress:nth-child(7) .progress-bar:nth-child(1) {
-  background-color: darkgreen;
-}
-
-.skills_box .progress:nth-child(7) .progress-bar:nth-child(2) {
-  background-color: #00ED64;
-}
-
-.skills_box .progress:nth-child(6) .progress-bar:nth-child(2) {
-  background-color: #61dafb;
-}
-
-.skills_box .progress:nth-child(8) .progress-bar:nth-child(2) {
-  background-color: royalblue;
-}
-
-/*section activities end*/
-
 
 
 /********section contact starts*********/
@@ -750,17 +798,15 @@ section {
   margin-bottom: 30px;
 }
 
-#footer .footer-top h2 {
+#footer .footer-top h1 {
 
-  font-size: 34px;
+  font-size: 40px;
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: "Audiowide", sans-serif;
   /* color:white;for dark mode */
   color: #013775;
   /* for light mode*/
-  font-weight: 400;
 
 }
 
@@ -769,18 +815,16 @@ section {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: "Audiowide", sans-serif;
-
-  color: blue;
   font-weight: 400;
-
+  color: #0450a7;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #footer .footer-top .footer-info p {
   font-size: 20px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: 'Architects Daughter', sans-serif;
+  font-family: Inconsolata;
   color: royalblue;
 }
 
@@ -788,13 +832,10 @@ section {
 
   display: inline-flex;
   justify-content: space-around;
-  /* align-items: flex-end;*/
   border-radius: 50%;
   font-size: 18px;
   color: royalblue;
-
   margin-right: 4px;
-
   width: 36px;
   height: 36px;
   transition: 0.3s;
@@ -814,6 +855,30 @@ section {
   font-size: 20px;
   color: #013775;
   /* for light mode*/
+}
+
+@media (max-width: 1650px) and (min-width: 1250px) {
+  #footer .footer-top h1 {
+    margin-left: -40%;
+  }
+
+}
+
+/* @media (max-width: 1250px) {
+  #footer .footer-top container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+} */
+
+@media (max-width: 450px) {
+  #footer .footer-top h3 {
+    /* margin-left: 25%; */
+    display: flex;
+    justify-content: center;
+    /* margin-left: 25%; */
+  }
 }
 
 /*--------------------------------------------------------------
