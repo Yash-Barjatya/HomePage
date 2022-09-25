@@ -1,16 +1,19 @@
-const preloader = document.getElementById('preloader')
+//**** Preloader ******
+// const preloader = document.getElementById('preloader')
+// window.onload = () => {
+//     setTimeout(() => {
+//         preloader.style.display = "none";
+//         main_content.style.display = "block";
+//         body.style.backgroundColor = "white";
+//     }, 3000)
+// }
+
 const main_content = document.getElementById('main_content')
 const about = document.getElementById('about')
 const contact = document.getElementById('contact')
 const feedback = document.getElementById('feedback')
 var body = document.getElementsByTagName("BODY")[0];
-window.onload = () => {
-    setTimeout(() => {
-        preloader.style.display = "none";
-        main_content.style.display = "block";
-        body.style.backgroundColor = "white";
-    }, 3000)
-}
+
 const age = document.getElementById('age');
 const current_year = new Date().getFullYear()
 age.innerText = current_year - 2002;
