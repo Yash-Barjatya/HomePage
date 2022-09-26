@@ -294,7 +294,7 @@ section {
   margin-left: 20px;
   font-size: 22px;
   font-weight: 500;
-  font-family: Inconsolata;
+  font-family: Handlee;
 }
 
 #about .about-container .icon-box {
@@ -339,11 +339,13 @@ section {
   font-weight: 600;
   margin-bottom: 5px;
   font-size: 22px;
-  font-family: Inconsolata;
 
 }
 
+
 #about .about-container .icon-box .title a {
+  font-family: "Patrick Hand SC";
+  font-size: 28px;
   color: #013775;
   /* for light mode */
 }
@@ -351,7 +353,8 @@ section {
 #about .about-container .icon-box .description {
   margin-left: 80px;
   line-height: 24px;
-  font-size: 16px;
+  font-size: 20px;
+  font-family: Handlee;
 }
 
 /* **** section about ends ****** */
@@ -362,7 +365,7 @@ section {
     font-weight: bold;
     text-align: center;
     font-size: 35px;
-    font-family:Inconsolata ;
+    font-family:Handlee ;
   } */
 
 
@@ -418,6 +421,34 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
+}
+
+.activities_container .activities_box .activities_content {
+  position: relative;
+  transition: .5;
+  z-index: 1;
+
+
+}
+
+.activities_container .activities_box:hover .activities_content {
+  color: #fff;
+}
+
+.activities_container .activities_box .activities_content h3 {
+  margin: 10px 0;
+  padding: 0;
+  font-family: "Patrick Hand SC";
+  font-size: 30px;
+  color: #013775;
+}
+
+.activities_container .activities_box .activities_content p {
+  font-family: Handlee;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
 }
 
 .activities_container .activities_box:nth-child(1) .activities_icon {
@@ -480,30 +511,6 @@ section {
 
 }
 
-.activities_container .activities_box .activities_content {
-  position: relative;
-  transition: .5;
-  z-index: 1;
-
-
-}
-
-.activities_container .activities_box:hover .activities_content {
-  color: #fff;
-}
-
-.activities_container .activities_box .activities_content h3 {
-  font-size: 20px;
-  margin: 10px 0;
-  padding: 0;
-}
-
-.activities_container .activities_box .activities_content p {
-
-  margin: 0;
-  padding: 0;
-}
-
 /* #### Media Queries #### */
 /* @media (max-width: 1640px) and (min-width: 1200px) {
  
@@ -556,6 +563,8 @@ section {
   font-weight: 600;
   font-size: 1.3rem;
   position: relative;
+  /* font-family: "Patrick Hand SC"; */
+  font-family: "Handlee";
 }
 
 .skills .item-text span:last-child {
@@ -686,13 +695,13 @@ section {
   text-align: center;
 }
 
-#contact .section-header h3 {
-  font-size: 36px;
+#contact .section-header h1 {
+  /* font-size: 36px; */
   margin: 0 0 10px 0;
   padding: 0;
   line-height: 1;
-  font-family: "Audiowide", sans-serif;
-  font-weight: 300;
+  font-family: "Shadows Into Light", sans-serif;
+  /* font-weight: 300; */
   letter-spacing: 3px;
   text-transform: uppercase;
   color: #013775;
@@ -711,6 +720,8 @@ section {
   font-weight: 700;
   font-size: larger;
   color: #74b5fc;
+  /* font-family: "Patrick Hand SC"; */
+  font-family: "Handlee";
   /* for light mode */
 }
 
@@ -719,6 +730,7 @@ section {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
+
 }
 
 #contact .email-form input:focus,
@@ -748,6 +760,9 @@ section {
   color: #013775;
   /* for light mode */
   transition: 0.3s;
+  /* font-family: "Patrick Hand SC"; */
+  font-family: "Handlee";
+  font-size: 25px;
 }
 
 #contact .email-form button[type=submit]:hover {
@@ -764,7 +779,7 @@ section {
 
 #feedback h1 {
   margin: 50px;
-  font-family: Inconsolata;
+  font-family: Handlee;
   text-decoration: none;
 
 }
@@ -811,20 +826,21 @@ section {
 }
 
 #footer .footer-top h3 {
-  font-size: 25px;
+  font-size: 35px;
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
   font-weight: 400;
   color: #0450a7;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Patrick Hand SC";
 }
 
 #footer .footer-top .footer-info p {
   font-size: 20px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: Inconsolata;
+  /* font-family: Inconsolata; */
+  font-family: Handlee;
   color: royalblue;
 }
 
@@ -851,9 +867,12 @@ section {
 
 #footer .copyright {
   text-align: center;
+  /* justify-content: center; */
   padding-top: 30px;
-  font-size: 20px;
+  font-size: 30px;
+  /* margin-top: 3%; */
   color: #013775;
+  font-family: "Patrick Hand SC";
   /* for light mode*/
 }
 
