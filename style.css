@@ -755,7 +755,7 @@ section {
   /*for light mode*/
 }
 
-#contact .email-form button[type=submit] {
+#contact .email-form button {
   background-color: white;
   border: 0;
   border-radius: 20px;
@@ -768,12 +768,13 @@ section {
   font-size: 25px;
 }
 
-#contact .email-form button[type=submit]:hover {
+#contact .email-form button:hover {
   background-color: #013775;
   /* for light mode */
   color: white;
   cursor: pointer;
 }
+
 
 /*feedback response*/
 #feedback {
@@ -787,8 +788,10 @@ section {
 
 }
 
-.feedback_body {
-  height: 200px;
+#feedback .feedback_body .lead {
+  font-family: "Patrick Hand SC";
+  font-weight: bold;
+  font-size: 25px;
 }
 
 /********section contact ends*********/

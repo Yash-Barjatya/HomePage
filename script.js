@@ -1,5 +1,5 @@
 //**** Preloader ******
-// const preloader = document.getElementById('preloader')
+// const preloader = document.getElementById('preloader'contactfeeed)
 // window.onload = () => {
 //     setTimeout(() => {
 //         preloader.style.display = "none";
@@ -26,16 +26,15 @@ var scrollSpy = new bootstrap.ScrollSpy(document.body, {
 /*contact_form submission */
 
 
-const contact_form = () => {
+function contact_form() {
 
-
+    console.log("send message clicked");
     contact.style.display = "none";
     feedback.style.display = "block";
     setTimeout(() => {
         contact.style.display = "block";
         feedback.style.display = "none";
     }, 3000)
-
 }
 
 /**
