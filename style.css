@@ -465,53 +465,33 @@ section {
 }
 
 .activities_container .activities_box:nth-child(2) .activities_icon {
-  box-shadow: 0 0 0 0 palevioletred;
-  background: palevioletred;
-}
 
-.activities_container .activities_box:nth-child(2):hover .activities_icon {
-  box-shadow: 0 0 0 400px palevioletred;
-
-}
-
-.activities_container .activities_box:nth-child(3) .activities_icon {
   box-shadow: 0 0 0 0 rgb(3, 178, 247);
   background: rgb(3, 178, 247);
 }
 
-.activities_container .activities_box:nth-child(3):hover .activities_icon {
+.activities_container .activities_box:nth-child(2):hover .activities_icon {
+
   box-shadow: 0 0 0 400px rgb(3, 178, 247);
-
 }
 
-.activities_container .activities_box:nth-child(4) .activities_icon {
-  box-shadow: 0 0 0 0 #18d26e;
-  background: #18d26e;
-}
-
-.activities_container .activities_box:nth-child(4):hover .activities_icon {
-  box-shadow: 0 0 0 400px #18d26e;
-
-}
-
-.activities_container .activities_box:nth-child(5) .activities_icon {
-  box-shadow: 0 0 0 0 lightseagreen;
-  background: lightseagreen;
-}
-
-.activities_container .activities_box:nth-child(5):hover .activities_icon {
-  box-shadow: 0 0 0 400px lightseagreen;
-
-}
-
-.activities_container .activities_box:last-child .activities_icon {
+.activities_container .activities_box:nth-child(3) .activities_icon {
   box-shadow: 0 0 0 0 rgb(127, 83, 248);
   background: rgb(127, 83, 248);
 }
 
-.activities_container .activities_box:last-child:hover .activities_icon {
+.activities_container .activities_box:nth-child(3):hover .activities_icon {
   box-shadow: 0 0 0 400px rgb(127, 83, 248);
 
+}
+
+.activities_container .activities_box:last-child .activities_icon {
+  box-shadow: 0 0 0 0 palevioletred;
+  background: palevioletred;
+}
+
+.activities_container .activities_box:last-child:hover .activities_icon {
+  box-shadow: 0 0 0 400px palevioletred;
 }
 
 /* #### Media Queries #### */
